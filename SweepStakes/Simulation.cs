@@ -20,6 +20,7 @@ namespace SweepStakes
 				switch (UserInterface.TakeUserInput().ToLower())
 				{
 					case "1":
+						LOL
 					case "queue":
 						newFirm = new MarketingFirm(queue, random);
 						firmIsDeciding = false;
